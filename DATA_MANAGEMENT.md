@@ -332,3 +332,9 @@ F12 → Application → Local Storage → Chọn domain
 ✅ Real-time update khắp ứng dụng
 
 **Bạn có thể yên tâm quản lý toàn bộ dữ liệu của cửa hàng từ Admin Panel!** 🚀
+
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "build",
+  "devCommand": "npm start"
+}

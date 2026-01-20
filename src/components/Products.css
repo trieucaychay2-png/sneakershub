@@ -65,14 +65,160 @@
 @media (max-width: 900px) {
   .products-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+
+  .products-section {
+    padding: 0 20px;
+  }
+
+  .section-title {
+    font-size: 38px;
+  }
+
+  .product-info {
+    padding: 20px;
+  }
+
+  .product-image {
+    height: 220px;
+  }
+
+  .product-name {
+    font-size: 14px;
+  }
+
+  .product-price {
+    font-size: 18px;
+  }
+
+  .view-detail-btn {
+    padding: 11px;
+    font-size: 12px;
+  }
+
+  .quick-action-btn {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
   }
 }
 
 @media (max-width: 600px) {
   .products-grid {
     grid-template-columns: 1fr;
-    max-width: 400px;
-    margin: 0 auto 40px;
+    gap: 20px;
+  }
+
+  .products-section {
+    margin: 40px auto;
+    padding: 0 12px;
+  }
+
+  .section-header {
+    margin-bottom: 40px;
+  }
+
+  .section-title {
+    font-size: 28px;
+  }
+
+  .section-title::after {
+    width: 80px;
+  }
+
+  .divider {
+    width: 60px;
+  }
+
+  .section-subtitle {
+    font-size: 14px;
+  }
+
+  .product-image {
+    height: 250px;
+  }
+
+  .product-info {
+    padding: 16px;
+  }
+
+  .product-name {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
+
+  .product-features {
+    gap: 10px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+  }
+
+  .feature-item {
+    font-size: 12px;
+    padding: 4px 10px;
+  }
+
+  .price-container {
+    margin-bottom: 15px;
+  }
+
+  .original-price {
+    font-size: 13px;
+    margin-bottom: 6px;
+  }
+
+  .product-price {
+    font-size: 18px;
+  }
+
+  .product-description {
+    font-size: 12px;
+    height: 55px;
+    margin-bottom: 15px;
+  }
+
+  .product-actions {
+    gap: 8px;
+  }
+
+  .view-detail-btn {
+    padding: 10px;
+    font-size: 11px;
+    gap: 6px;
+  }
+
+  .quick-action-btn {
+    width: 45px;
+    height: 45px;
+    font-size: 16px;
+  }
+
+  .discount-badge {
+    top: 15px;
+    right: 15px;
+    padding: 6px 12px;
+    font-size: 12px;
+  }
+
+  .product-category {
+    top: 15px;
+    left: 15px;
+    padding: 6px 14px;
+    font-size: 11px;
+  }
+
+  .product-rating {
+    bottom: 15px;
+    left: 15px;
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+
+  .view-all-btn {
+    padding: 14px 40px;
+    font-size: 16px;
+    gap: 10px;
   }
 }
 
